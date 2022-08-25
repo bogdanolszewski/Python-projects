@@ -1,0 +1,119 @@
+body {
+    font-family: sans-serif;
+}
+
+h1 {
+display:flex;
+justify-content: center;
+color: rgb(84, 184, 223);
+}
+
+div {
+justify-content: center;
+}
+
+h2, h3, h4, h5, h6 {
+    
+}
+
+#page {
+background-color: black;;
+padding: 10px;
+border-style: solid;
+border-width: 5px;
+border-color: rgb(102, 107, 199);
+}
+
+#description {
+display:flex;
+justify-content: center;
+color: rgb(84, 184, 223);
+padding-bottom: 20px;
+}
+
+#UserInputs {
+display:flex;
+}
+
+#StockDrpdn {
+    display: inline-block;
+    padding: 5px;
+    padding-top: 10px;
+    width: 100px;
+    height: auto;
+}
+#startdate {
+    display: inline-block;
+    padding: 5px;
+    padding-right: 0px;
+    height: auto;
+}
+#enddate {
+    display: inline-block;
+    padding: 5px;
+    height: auto;
+}
+
+#output {
+color:aqua;
+}
+
+#Wrapper1 {
+    width: 97%; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    /*
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(6, 13, 144);
+    position: left; */
+}
+
+#charts1 {
+    display:flex;
+    height: auto;/*
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(160, 162, 193); */
+}
+
+#StockOpenClosePrices {
+    display: inline-block;
+    padding: 5px;
+    padding-top: 5px;
+    width: 49%;
+    }
+    
+    #StockHighLowPrices {
+    display: inline-block;
+    padding: 5px;
+    padding-top: 5px;
+    width: 49%;
+    }
+
+#Wrapper2 {
+    display: flex;
+    width: 97%; /* Can be in percentage also. */
+    height: auto;
+    margin: 0 auto;
+    padding: 10px;
+    /*border-style: solid;
+    border-width: 3px;
+    border-color: rgb(6, 13, 144);
+    position: left; */
+}
+
+#Measures {
+    display: inline-block;
+    border-style: solid;
+    border-width: 3px;
+    border-color: rgb(6, 13, 144);
+    /*height: 300px;*/
+    color: rgb(84, 184, 223);
+    padding: 10px;
+    padding-left: 100px;
+    padding-right: 100px;
+    width: 75%;
+}
+
